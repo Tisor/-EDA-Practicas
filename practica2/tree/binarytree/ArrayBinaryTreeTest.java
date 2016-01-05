@@ -17,6 +17,7 @@ import org.junit.rules.ExpectedException;
 
 import static org.junit.Assert.*;
 
+@SuppressWarnings("unused")
 public class ArrayBinaryTreeTest {
 
 	 /**

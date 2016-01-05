@@ -24,6 +24,7 @@ import static org.junit.Assert.*;
  *
  * @author J. Vélez, A. Duarte, J. Sánchez-Oro
  */
+@SuppressWarnings("unused")
 public class LinkedBinaryTreeTest {
     
     /**

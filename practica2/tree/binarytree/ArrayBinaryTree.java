@@ -41,7 +41,8 @@ public class ArrayBinaryTree<E> implements BinaryTree<E> {
         	return this.myTree;
         }
         
-        public void setMyTree(ArrayBinaryTree<T> tree){
+        @SuppressWarnings("unused")
+		public void setMyTree(ArrayBinaryTree<T> tree){
         	this.myTree = tree;
         }
         

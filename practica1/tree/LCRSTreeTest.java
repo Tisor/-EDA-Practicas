@@ -14,12 +14,14 @@ import practica1.tree.iterator.PreorderIteratorRec;
 
 import org.junit.Test;
 
+@SuppressWarnings("unused")
 public class LCRSTreeTest {
 
 	 /**
      * Test of size method, of class LinkedTree.
      */
-    @Test
+    
+	@Test
     public void testSize() {
         LCRSTree<String> t = new LCRSTree<>();
         assertEquals(t.size(), 0);

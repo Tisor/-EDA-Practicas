@@ -6,15 +6,12 @@
 package practica1.tree;
 
 import practica1.tree.iterator.BFSIterator;
-import practica1.tree.iterator.BFSIteratorFactory;
 import practica1.tree.iterator.FrontIterator;
 import practica1.tree.iterator.PostorderIterator;
 import practica1.tree.iterator.PreorderIterator;
-import practica1.tree.iterator.PreorderIteratorRec;
-import practica1.tree.iterator.TreeIteratorFactory;
 
-import java.awt.List;
-import java.util.ArrayList;
+
+
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -27,6 +24,7 @@ import static org.junit.Assert.*;
  * Basic tests for LinkedTree class
  * @author A. Duarte, J. Vélez, J. Sánchez-Oro
  */
+@SuppressWarnings("unused")
 public class LinkedTreeTest {
 
     /**
