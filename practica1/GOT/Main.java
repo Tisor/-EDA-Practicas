@@ -7,7 +7,7 @@ public class Main {
 		
 		GameOfThrones serie = new GameOfThrones();
 		try{
-			serie.loadFile("C:/got_edited.txt");
+			serie.loadFile("src/practica1/GOT/got_edited.txt");
 			System.out.println(serie.findHeir("Tully"));
 			serie.changeFamily("Eddard", "Tytos");
 			System.out.println(serie.areFamily("Daenerys", "Euron"));

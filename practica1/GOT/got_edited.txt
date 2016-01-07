@@ -1,0 +1,97 @@
+AA = Rickard Stark (M)        
+AB = Eddard Stark (M)         
+AC = Catelyn Tully (F)
+AD = Brandon Stark (M)        
+AE = Benjen Stark (M)         
+AF = Jon Snow (M)
+AG = Robb Stark (M)           
+AH = Sansa Stark (F)          
+AI = Arya Stark (F)
+AJ = Bran Stark (M)           
+AK = Rickon Stark (M)         
+AL = Hoster Tully (M)      
+AN = Edmure Tully (M)         
+AO = Lysa Tully (F)      
+AQ = Robert Arryn (M)         
+AR = Tytos Lannister (M)
+AS = Tywin Lannister (M)      
+AU = Kevan Lannister (M)
+AV = Cersei Lannister (F)     
+AW = Jamie Lannister (M)      
+AX = Tyrion Lannister (M)
+AY = Robert Baratheon (M)     
+AZ = Joffrey Baratheon (M)    
+BA = Myrcella Baratheon (F)
+BB = Tommen Baratheon (M)     
+BC = Lancel Lannister (M)     
+BD = Steffon Baratheon (M)
+BE = Stannis Baratheon (M)      
+BG = Shireen Baratheon (F)
+BH = Renly Baratheon (M)      
+BI = Jaehaerys Targaryen (M)  
+BJ = Aerys Targaryen (M)
+BK = Rhaella Targaryen (F)    
+BL = Rhaegar Targaryen (M)    
+BN = Rhaenys Targaryen (F)    
+BO = Aegon Targaryen (M)      
+BP = Viserys Targaryen (M)
+BQ = Daenerys Targaryen (F)   
+BR = Quellon Greyjoy (M)      
+BS = Balon Greyjoy (M)
+BT = Euron Greyjoy (M)        
+BU = Victarion Greyjoy (M)    
+BV = Urrigon Greyjoy (M)
+BW = Aeron Greyjoy (M)        
+BX = Rodrik Greyjoy (M)       
+BY = Maron Greyjoy (M)
+BZ = Asha Greyjoy (F)         
+CA = Theon Greyjoy (M)        
+---------------------------------------------------------------------------------------
+6
+AA
+AL
+AR
+BD
+BI
+BR
+AA -> AD
+AA -> AB
+AA -> AE
+AB -> AF
+AB -> AG
+AB -> AH
+AB -> AI
+AB -> AJ
+AB -> AK
+AL -> AC
+AL -> AN
+AL -> AO
+AO -> AQ
+AR -> AS
+AR -> AU
+AS -> AV
+AS -> AW
+AS -> AX
+AU -> BC
+BD -> AY
+BD -> BE
+BD -> BH
+AY -> AZ
+AY -> BA
+AY -> BB
+BE -> BG
+BI -> BJ
+BI -> BL
+BJ -> BL
+BJ -> BQ
+BJ -> BP
+BL -> BN
+BL -> BO
+BR -> BS
+BR -> BT
+BR -> BU
+BR -> BW
+BS -> BX
+BS -> BY
+BS -> BZ
+BS -> CA
