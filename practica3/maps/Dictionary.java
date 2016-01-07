@@ -6,7 +6,9 @@ import java.util.Set;
 
 
 
-
+/* No está totalmente terminada, pero la clase cumple con los 
+ * requisitos para el ejercicio 4
+ */
 public class Dictionary<K, V> extends HashTableMapSC<K, V>{
 	
 	
@@ -65,7 +67,7 @@ public class Dictionary<K, V> extends HashTableMapSC<K, V>{
 		Set<V> values = new HashSet<>();
 		if(bucket[k] != null){
 			for(HashEntry<K, V> e: bucket[k]){
-				if (e.getKey() == key){
+				if (e.getKey().equals(key)){
 					values.add(e.getValue());
 				}
 			}

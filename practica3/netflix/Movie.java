@@ -10,7 +10,15 @@ public class Movie {
 	private String year;
 	private String calification;
 	private ArrayList<String> genres;
+	private int numScores;
 	
+	public Movie(String name, String year, String calification, ArrayList<String> genres){
+		this.name = name;
+		this.year = year;
+		this.calification = calification;
+		this.genres = genres;
+		this.setNumScores(1);
+	}
 	
 	public String getName() {
 		return name;
@@ -37,6 +45,26 @@ public class Movie {
 		this.genres = genres;
 	}
 	
+	public int getNumScores() {
+		return numScores;
+	}
+
+	public void setNumScores(int numScores) {
+		this.numScores = numScores;
+	}
 	
+	@Override
+	public String toString(){
+		String pelicula = "Title: " + name + "\n" +
+				"Year: " + year + "\n"+
+				"Calification: " + calification + "\n";
+		int counter = 1;
+		String strGen = "";
+		for(String genre: genres){
+			strGen = strGen + "Genero " + counter + ": " + genre + "\n";
+		}
+		return pelicula + strGen;
+	}
+
 
 }

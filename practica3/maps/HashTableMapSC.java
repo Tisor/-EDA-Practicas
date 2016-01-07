@@ -283,7 +283,7 @@ public class HashTableMapSC<K, V> implements Map<K, V> {
     	int k = hashValue(key);
     	if(bucket[k] != null){
     		for(HashEntry<K, V> e: bucket[k]){
-    			if(e.getKey() == key){
+    			if(e.getKey().equals(key)){
     				return e.getValue();
     			}
     		}
@@ -326,7 +326,7 @@ public class HashTableMapSC<K, V> implements Map<K, V> {
         	int posArray = 0;
         	boolean found = false;
         	for(HashEntry<K, V> e: bucket[k]){
-        		if(e.getKey() == key){
+        		if(e.getKey().equals(key)){
         			found = true;
         			break;
         		}
@@ -368,7 +368,7 @@ public class HashTableMapSC<K, V> implements Map<K, V> {
         	int posArray = 0;
         	boolean found = false;
         	for(HashEntry<K, V> e: bucket[k]){
-        		if(e.getKey() == key){
+        		if(e.getKey().equals(key)){
         			found = true;
         			break;
         		}
